@@ -89,7 +89,7 @@ int estPleine(struct file* fileStruct) {
     // Cette fois-ci je ne peux pas douiller comme au-dessus. Il faut que je traite tous les cas.
     /// Le premier cas consiste à vérifier si la case après celle sur laquelle pointe l'indice d'Ajout est celle sur laquelle point l'indice de retrait. Cette condition vérifiée veut dire que tous les éléments sont pris et que je ne peux pas en rajouter: la file est pleine.
     /// Le deuxième cas prend en compte le fait que, une fois à la fin du tableau (car la "file" est quand meme un tableau), la case d'après correspond à la première: on revient au début (on passe de 49, le 50ième élément, à 0, le premier)
-    if (fileStruct->indiceAjout fileStruct->indiceRetrait) {
+    if (fileStruct->indiceAjout == fileStruct->indiceRetrait) {
         return 1;
     }
     // Si mon if n'est pas vérifié, soit: la file n'est pas pleine, je retourne 0
