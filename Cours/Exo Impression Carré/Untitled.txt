@@ -1,0 +1,1 @@
+Explication de base sur une impression d’un carré de taille fournie par l’utilisateur
