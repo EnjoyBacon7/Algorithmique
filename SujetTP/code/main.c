@@ -52,7 +52,7 @@ int main1() {
     for(int i = 0; i < 10; i++) {
         printf("%d\n", tablCharge[i]); // D'ailleurs lorsqu'un "format" est présent, c'est à dire un %X, on va retrouver des paramètres comme : ("%d", variable)
     }
-    printf("\nLe nombre de cases modifiees est %d", compte);
+    printf("\nLe nombre de cases modifiees est %d\n", compte);
     return 0;
 }
 
@@ -84,6 +84,10 @@ void charger(char* fpName, int tablCharge[10]) {    // Note le "char* fpName", c
     strcpy(fpPath, fpName);             // On copie "fpName" dans "fpPath"
     strcat(fpPath, ".txt");             // On lui rajoute le ".txt" indiqué plus haut
     FILE* fp = fopen(fpPath, "r+");     // On peut enfin ouvrir le fichier en lecture/ecriture
+    if(fp == NULL) {                    // Si le fichier n'existe pas, on quitte le programme
+        printf("Le fichier \"%s\" n'existe pas ou n'a pas pu etre ouvert\n", fpPath);
+        exit(1);
+    }
 
     int buf;                        // Ce buffer permet de stocker temporairement chaque entier lu
 
@@ -383,7 +387,7 @@ int main4() {
 
 int main() {
 
-    main1();
+    main4();
 
     return 0;
 }
