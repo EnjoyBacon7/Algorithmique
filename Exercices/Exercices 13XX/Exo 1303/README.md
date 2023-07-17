@@ -1,0 +1,1 @@
+Schéma mémoire non fait.
