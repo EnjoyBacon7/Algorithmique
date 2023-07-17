@@ -4,7 +4,7 @@
 struct structure {
     char caractere;     // avec un caractère
     int nombres[15];    // et un tableau de 15 entiers
-}
+};
 
 // On crée un alias pour la structure. On peut maintenant utiliser t_struct au lieu de struct structure
 typedef struct structure t_struct;
