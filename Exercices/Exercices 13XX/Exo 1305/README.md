@@ -1,0 +1,1 @@
+Cet exercice est assez bizarre. Il est de niveau 3 dans l'énoncé, mais ce qu'il faut faire est écrit en dur. Il ne faut pas faire de menu pour donner le contrôle à l'utilisateur ou permettre de remplir seulement une structure à la fois. Le blindage n'est pas non plus demandé. Bref un exercice pas très poli.
