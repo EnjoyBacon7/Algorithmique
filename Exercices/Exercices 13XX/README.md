@@ -1,1 +1,1 @@
-Tous les exercices de 1301 à 1305. Ceux-ci traitent les structures
+Tous les exercices de 1301 à 1305. Ceux-ci traitent les structures.
