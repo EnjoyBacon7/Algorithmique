@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // printf, scanf, fflush, stdin
 
 // Structure de date prenant en compte les jours, mois et années
 typedef struct date {
