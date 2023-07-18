@@ -1,0 +1,41 @@
+8
+1
+Avatar
+James Cameron
+2009
+Science Fiction
+2
+The Lord of the Rings: The Return of the King
+Peter Jackson
+2003
+Fantasy
+3
+Titanic
+James Cameron
+1997
+Romance
+4
+Jurassic World
+Colin Trevorrow
+2015
+Science Fiction
+5
+Avengers: Infinity War
+Anthony Russo
+2018
+Science Fiction
+6
+The Lion King
+Roger Allers
+1994
+Animation
+7
+The Avengers
+Joss Whedon
+2012
+Science Fiction
+8
+Furious 7
+James Wan
+2015
+Action
