@@ -1,0 +1,169 @@
+## Exercice 402
+
+Cette exercice nous apprend deux choses:
+
+### Le typage des variables est assez superficiel
+
+Deux variables de types différents ne verront que deux différences :
+
+ - La taille de l'espace réservé à chaque variable (en octets) en mémoire
+ - Ce que le débugger va considérer une erreur.
+ (Essayez de changer le type de la variable monChar en int et de voir ce que ça donne. Normalement, le débugger n'affiche plus de warning et tout fonctionne de la meme manière)
+
+### Le fonctionnement des caractères en C
+
+En fait, un caractère est stocké en mémoire comme un entier. (la mémoire d'un ordi ce sont juste des chiffres en binaire) Et chaque caractère est associé à un entier. Par exemple, le caractère 'A' est associé à l'entier 65. Le caractère 'B' est associé à l'entier 66, etc... On appelle ça le code ASCII. (https://fr.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange)
+
+#### Ainsi, pour répondre aux questions de l'exercice:
+
+ - Pour les valeurs de 97 à 122 (soit une plage de 26 valeurs) on imprime les lettres de l'alphabet en minuscule. (Les majuscules sont de 65 à 90)
+ - Pour les caractères spéciaux:
+
+<div align="center">
+
+| Caractère | Code ASCII           |
+|:---------:|:--------------------:|
+|     *     |          42          |
+|     @     |          64          |
+|     #     |          35          |
+|     $     |          36          |
+
+</div>
+
+## La Table ASCII
+
+<div align="center">
+
+| Code décimal (Base 10) | Code binaire (Base 2) | Code hexadécimal (Base 16) | Caractère ASCII |
+|:----------------------|:---------------------|:--------------------------|:----------------|
+| 0                     | 00000000             | 0x00                      | NUL             |
+| 1                     | 00000001             | 0x01                      | SOH             |
+| 2                     | 00000010             | 0x02                      | STX             |
+| 3                     | 00000011             | 0x03                      | ETX             |
+| 4                     | 00000100             | 0x04                      | EOT             |
+| 5                     | 00000101             | 0x05                      | ENQ             |
+| 6                     | 00000110             | 0x06                      | ACK             |
+| 7                     | 00000111             | 0x07                      | BEL             |
+| 8                     | 00001000             | 0x08                      | BS              |
+| 9                     | 00001001             | 0x09                      | HT              |
+| 10                    | 00001010             | 0x0A                      | LF              |
+| 11                    | 00001011             | 0x0B                      | VT              |
+| 12                    | 00001100             | 0x0C                      | FF              |
+| 13                    | 00001101             | 0x0D                      | CR              |
+| 14                    | 00001110             | 0x0E                      | SO              |
+| 15                    | 00001111             | 0x0F                      | SI              |
+| 16                    | 00010000             | 0x10                      | DLE             |
+| 17                    | 00010001             | 0x11                      | DC1             |
+| 18                    | 00010010             | 0x12                      | DC2             |
+| 19                    | 00010011             | 0x13                      | DC3             |
+| 20                    | 00010100             | 0x14                      | DC4             |
+| 21                    | 00010101             | 0x15                      | NAK             |
+| 22                    | 00010110             | 0x16                      | SYN             |
+| 23                    | 00010111             | 0x17                      | ETB             |
+| 24                    | 00011000             | 0x18                      | CAN             |
+| 25                    | 00011001             | 0x19                      | EM              |
+| 26                    | 00011010             | 0x1A                      | SUB             |
+| 27                    | 00011011             | 0x1B                      | ESC             |
+| 28                    | 00011100             | 0x1C                      | FS              |
+| 29                    | 00011101             | 0x1D                      | GS              |
+| 30                    | 00011110             | 0x1E                      | RS              |
+| 31                    | 00011111             | 0x1F                      | US              |
+| 32                    | 00100000             | 0x20                      | espace          |
+| 33                    | 00100001             | 0x21                      | !               |
+| 34                    | 00100010             | 0x22                      | "               |
+| 35                    | 00100011             | 0x23                      | #               |
+| 36                    | 00100100             | 0x24                      | $               |
+| 37                    | 00100101             | 0x25                      | %               |
+| 38                    | 00100110             | 0x26                      | &               |
+| 39                    | 00100111             | 0x27                      | '               |
+| 40                    | 00101000             | 0x28                      | (               |
+| 41                    | 00101001             | 0x29                      | )               |
+| 42                    | 00101010             | 0x2A                      | *               |
+| 43                    | 00101011             | 0x2B                      | +               |
+| 44                    | 00101100             | 0x2C                      | ,               |
+| 45                    | 00101101             | 0x2D                      | -               |
+| 46                    | 00101110             | 0x2E                      | .               |
+| 47                    | 00101111             | 0x2F                      | /               |
+| 48                    | 00110000             | 0x30                      | 0               |
+| 49                    | 00110001             | 0x31                      | 1               |
+| 50                    | 00110010             | 0x32                      | 2               |
+| 51                    | 00110011             | 0x33                      | 3               |
+| 52                    | 00110100             | 0x34                      | 4               |
+| 53                    | 00110101             | 0x35                      | 5               |
+| 54                    | 00110110             | 0x36                      | 6               |
+| 55                    | 00110111             | 0x37                      | 7               |
+| 56                    | 00111000             | 0x38                      | 8               |
+| 57                    | 00111001             | 0x39                      | 9               |
+| 58                    | 00111010             | 0x3A                      | :               |
+| 59                    | 00111011             | 0x3B                      | ;               |
+| 60                    | 00111100             | 0x3C                      | <               |
+| 61                    | 00111101             | 0x3D                      | =               |
+| 62                    | 00111110             | 0x3E                      | >               |
+| 63                    | 00111111             | 0x3F                      | ?               |
+| 64                    | 01000000             | 0x40                      | @               |
+| 65                    | 01000001             | 0x41                      | A               |
+| 66                    | 01000010             | 0x42                      | B               |
+| 67                    | 01000011             | 0x43                      | C               |
+| 68                    | 01000100             | 0x44                      | D               |
+| 69                    | 01000101             | 0x45                      | E               |
+| 70                    | 01000110             | 0x46                      | F               |
+| 71                    | 01000111             | 0x47                      | G               |
+| 72                    | 01001000             | 0x48                      | H               |
+| 73                    | 01001001             | 0x49                      | I               |
+| 74                    | 01001010             | 0x4A                      | J               |
+| 75                    | 01001011             | 0x4B                      | K               |
+| 76                    | 01001100             | 0x4C                      | L               |
+| 77                    | 01001101             | 0x4D                      | M               |
+| 78                    | 01001110             | 0x4E                      | N               |
+| 79                    | 01001111             | 0x4F                      | O               |
+| 80                    | 01010000             | 0x50                      | P               |
+| 81                    | 01010001             | 0x51                      | Q               |
+| 82                    | 01010010             | 0x52                      | R               |
+| 83                    | 01010011             | 0x53                      | S               |
+| 84                    | 01010100             | 0x54                      | T               |
+| 85                    | 01010101             | 0x55                      | U               |
+| 86                    | 01010110             | 0x56                      | V               |
+| 87                    | 01010111             | 0x57                      | W               |
+| 88                    | 01011000             | 0x58                      | X               |
+| 89                    | 01011001             | 0x59                      | Y               |
+| 90                    | 01011010             | 0x5A                      | Z               |
+| 91                    | 01011011             | 0x5B                      | [               |
+| 92                    | 01011100             | 0x5C                      | \               |
+| 93                    | 01011101             | 0x5D                      | ]               |
+| 94                    | 01011110             | 0x5E                      | ^               |
+| 95                    | 01011111             | 0x5F                      | _               |
+| 96                    | 01100000             | 0x60                      | `               |
+| 97                    | 01100001             | 0x61                      | a               |
+| 98                    | 01100010             | 0x62                      | b               |
+| 99                    | 01100011             | 0x63                      | c               |
+| 100                   | 01100100             | 0x64                      | d               |
+| 101                   | 01100101             | 0x65                      | e               |
+| 102                   | 01100110             | 0x66                      | f               |
+| 103                   | 01100111             | 0x67                      | g               |
+| 104                   | 01101000             | 0x68                      | h               |
+| 105                   | 01101001             | 0x69                      | i               |
+| 106                   | 01101010             | 0x6A                      | j               |
+| 107                   | 01101011             | 0x6B                      | k               |
+| 108                   | 01101100             | 0x6C                      | l               |
+| 109                   | 01101101             | 0x6D                      | m               |
+| 110                   | 01101110             | 0x6E                      | n               |
+| 111                   | 01101111             | 0x6F                      | o               |
+| 112                   | 01110000             | 0x70                      | p               |
+| 113                   | 01110001             | 0x71                      | q               |
+| 114                   | 01110010             | 0x72                      | r               |
+| 115                   | 01110011             | 0x73                      | s               |
+| 116                   | 01110100             | 0x74                      | t               |
+| 117                   | 01110101             | 0x75                      | u               |
+| 118                   | 01110110             | 0x76                      | v               |
+| 119                   | 01110111             | 0x77                      | w               |
+| 120                   | 01111000             | 0x78                      | x               |
+| 121                   | 01111001             | 0x79                      | y               |
+| 122                   | 01111010             | 0x7A                      | z               |
+| 123                   | 01111011             | 0x7B                      | {               |
+| 124                   | 01111100             | 0x7C                      | |               |
+| 125                   | 01111101             | 0x7D                      | }               |
+| 126                   | 01111110             | 0x7E                      | ~               |
+| 127                   | 01111111             | 0x7F                      | DEL             |
+
+
+</div>
