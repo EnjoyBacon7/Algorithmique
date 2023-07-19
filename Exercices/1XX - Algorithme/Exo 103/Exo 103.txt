@@ -1,0 +1,17 @@
+Enoncé
+
+Vous devez calculer le carré d’un entier donné par l’utilisateur.
+Ecrire le DTI et l’algorithme pour obtenir le résultat demandé.
+
+--------------------------------------------------------------------------------------------------
+
+Corrigé
+
+Pas de DTI pour l'instant (cf. https://github.com/EnjoyBacon7/Algorithmique/wiki)
+
+DEBUT
+    AFFICHER "Entrez un nombre: "
+    ENTIER valeur ← SAISIE
+    valeur ← valeur * valeur
+    AFFICHER "La valeur de ce nombre au carré est " valeur "."
+FIN
