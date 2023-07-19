@@ -1,0 +1,21 @@
+Enoncé
+
+Ecrire un DTI et un algorithme qui saisit dix entiers et qui affiche la moyenne de ces nombre
+entiers.
+
+-----------------------------------------------------------------------------------------
+
+Corrigé
+
+Pas de DTI pour l'instant (cf. https://github.com/EnjoyBacon7/Algorithmique/wiki)
+
+DEBUT
+    REEL moyenne ← 0
+    Pour 10 fois Faire
+        AFFICHER “Entrez un nombre: “
+        ENTIER valeur ← SAISIE
+        moyenne ← valeur + moyenne
+    Fpour
+    moyenne ← moyenne / 10
+    AFFICHER “La moyenne est: “ moyenne
+FIN
