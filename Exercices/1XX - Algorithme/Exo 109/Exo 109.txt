@@ -1,0 +1,65 @@
+Enoncé
+
+Ecrire un DTI et un algorithme qui :
+
+- saisit un réel. Ce réel est considéré comme le montant des achats effectués.
+- saisit un entier. Ce nombre est considéré comme l’argent donné par le client pour payer ses achats. Cette somme doit être supérieure ou égale à la précédente
+- afficher le nombre de pièces (1cent, 2 cent, 5 cent, 10 cent, 20 cent, 50, cent, 1 euro, 2 euro) ainsi que le nombre de billets (5 euro, 10 euro, 20 euro, 50 euro, 100 euro, 500 euro) nécessaires pour rendre la monnaie au client à la suite de ses achats. La monnaie sera toujours rendue avec le moins de pièces ou de billet possible.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Corrigé
+
+Pas de DTI pour l'instant (cf. https://github.com/EnjoyBacon7/Algorithmique/wiki)
+
+DEBUT
+    AFFICHER "Entrez le montant des achats : "
+    REEL montantAchats ← SAISIE
+
+    AFFICHER "Entrez le montant donné par le client : "
+    REEL montantDonne ← SAISIE
+
+    TANT QUE montantDonne < montantAchats FAIRE
+        AFFICHER "Le montant donné doit être supérieur ou égal au montant des achats."
+        AFFICHER "Entrez à nouveau le montant donné par le client : "
+        montantDonne ← SAISIE
+    FIN TANT QUE
+
+    REEL monnaie ← montantDonne - montantAchats
+
+    AFFICHER "La monnaie à rendre est de ", monnaie, " euros."
+
+    AFFICHER "La monnaie sera rendue avec :"
+
+    LISTE DE ENTIER billets ← [500, 100, 50, 20, 10, 5]
+    LISTE DE ENTIER pieces ← [2, 1, 50, 20, 10, 5, 2, 1]
+
+    LISTE DE ENIER NbBillets ← [0, 0, 0, 0, 0, 0]
+    LISTE DE ENIER NbPieces ← [0, 0, 0, 0, 0, 0, 0, 0]
+
+    POUR i ← 0 A 5 FAIRE
+        NbBillets[i] ← monnaie / billets[i]
+        monnaie ← monnaie % billets[i]
+    FIN POUR
+
+    POUR i ← 0 A 7 FAIRE
+        NbPieces[i] ← monnaie / pieces[i]
+        monnaie ← monnaie % pieces[i]
+    FIN POUR
+
+    AFFICHER NbBillets[0], " billets de 500 euros"
+    AFFICHER NbBillets[1], " billets de 100 euros"
+    AFFICHER NbBillets[2], " billets de 50 euros"
+    AFFICHER NbBillets[3], " billets de 20 euros"
+    AFFICHER NbBillets[4], " billets de 10 euros"
+    AFFICHER NbBillets[5], " billets de 5 euros"
+
+    AFFICHER NbPieces[0], " pièces de 2 euros"
+    AFFICHER NbPieces[1], " pièces de 1 euro"
+    AFFICHER NbPieces[2], " pièces de 50 centimes"
+    AFFICHER NbPieces[3], " pièces de 20 centimes"
+    AFFICHER NbPieces[4], " pièces de 10 centimes"
+    AFFICHER NbPieces[5], " pièces de 5 centimes"
+    AFFICHER NbPieces[6], " pièces de 2 centimes"
+    AFFICHER NbPieces[7], " pièces de 1 centime"
+FIN
