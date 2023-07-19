@@ -17,6 +17,7 @@ In main.c:
     - Return 0;
     - Comments
     - Remove any and all accents (outside comments)
+    - Add '\n' to all prints
 
 In md:
     - Ex number (## Exercice 304)
