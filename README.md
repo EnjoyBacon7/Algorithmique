@@ -11,8 +11,8 @@ Avancement Réponses : &nbsp;&nbsp; ![19%](https://progress-bar.dev/19)
 
 Les ACD et DTIs demandés ne sont pas faits (par manque de temps).
 
+[]
 
-[Exercices 1XX](/Exercices/1XX%20-%20Algorithme/README.md) - [Exercices 4XX](/Exercices/4XX%20-%20Entrées%20Sorties//README.md) - [Exercices 13XX](/Exercices/13XX%20-%20Structures//README.md) - [Exercices 14XX](/Exercices/14XX%20-%20Fichiers%20Texte//README.md)
 
 <!-- 
 
