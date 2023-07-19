@@ -4,8 +4,8 @@ Exos d'Algo + Corrigés
 Problème de compilation, de logique, ou de code tout bête?
 Discord: enjoybacon7
 
-Avancement:![15%](https://progress-bar.dev/15)
-<!-- 19/120 -->
+Avancement Réponses : &nbsp;&nbsp; ![19%](https://progress-bar.dev/19)
+<!-- 23/120 -->
 
 ### Exercices non faits
 
