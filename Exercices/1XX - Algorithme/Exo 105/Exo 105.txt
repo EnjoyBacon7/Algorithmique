@@ -1,0 +1,22 @@
+Enoncé
+
+Ecrire un DTI et un algorithme (avec une boucle) qui affiche 20 entiers saisis. Chacun est
+compris dans l’intervalle [-55 ; 100]
+
+-------------------------------------------------------------------------------
+
+Corrigé
+
+Pas de DTI pour l'instant (cf. https://github.com/EnjoyBacon7/Algorithmique/wiki)
+
+DEBUT
+    Pour 20 fois Faire
+        AFFICHER “Entrez un nombre: “
+        ENTIER valeur ← SAISIE
+        TANT QUE valeur > 100 OU valeur < -55
+            AFFICHER “Ce nombre n’est pas valide réessayez: “
+            ENTIER valeur ← SAISIE
+            AFFICHER “Le nombre saisi est ” valeur
+        FIN TANT QUE
+    Fin Pour
+FIN
