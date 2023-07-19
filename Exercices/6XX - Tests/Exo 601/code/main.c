@@ -18,9 +18,9 @@ int main()
     if (reponse == 1)
         printf("%d est un multiple de 5 seulement.\n", saisie);
     else if (reponse == 2)
-        printf("%d est superieur ou egal a 3 seulement.\n");
+        printf("%d est superieur ou egal a 3 seulement.\n", saisie);
     else if (reponse == 3)
-        printf("%d est un multiple de 5 et superieur ou egal a 3.\n");
+        printf("%d est un multiple de 5 et superieur ou egal a 3.\n", saisie);
     else
-        printf("%d n'est ni un multiple de 5 ni superieur ou egal a 3.\n");
+        printf("%d n'est ni un multiple de 5 ni superieur ou egal a 3.\n", saisie);
 }
