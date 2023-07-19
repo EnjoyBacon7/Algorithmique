@@ -1,7 +1,6 @@
 Enoncé
 
-Ecrire un DTI et un algorithme qui saisit dix entiers et qui affiche la moyenne de ces nombre
-entiers.
+Ecrire un DTI et un algorithme qui saisit dix entiers et qui affiche la moyenne de ces nombre entiers.
 
 -----------------------------------------------------------------------------------------
 
@@ -15,7 +14,7 @@ DEBUT
         AFFICHER “Entrez un nombre: “
         ENTIER valeur ← SAISIE
         moyenne ← valeur + moyenne
-    Fpour
+    Fin Pour
     moyenne ← moyenne / 10
     AFFICHER “La moyenne est: “ moyenne
 FIN
