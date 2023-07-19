@@ -1,6 +1,7 @@
 ## Exercice 403
 
 Cet exercice continue sur le thème de l'exercice 402. Il s'agit de jouer et se familiariser avec la table ASCII.
+Algorithme non fait.
 
 ### Principe
 
