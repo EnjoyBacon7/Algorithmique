@@ -1,6 +1,6 @@
 ## Exercice 504
 
-Cet exercice suit l'[Exo 503](/Exercices/5XX%20-%20Calculs%20Comparaisons/Exo%20503/README.md).
+Cet exercice est la suite de l'[Exo 503](/Exercices/5XX%20-%20Calculs%20Comparaisons/Exo%20503/README.md).
 
 ### Réponses
 
