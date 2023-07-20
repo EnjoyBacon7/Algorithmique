@@ -239,7 +239,7 @@ int main3();    /// La fonction à appeler dans le main tout en bas pour cet par
 void initialiserPile(t_pile* pile, int taille) {
 
     pile->tailleMax = taille;   // Taille max fournie en parametre
-    pile->tab = malloc(pile->tailleMax*sizeof(t_carteS));
+    pile->tab = (t_carteS*)malloc(pile->tailleMax*sizeof(t_carteS));
     pile->sommet = 0;   // On place l'indice d'ajout à 0 et on est prêt a lancer le reste
 }
 
