@@ -2,4 +2,26 @@
 - *pt correspond à la valeur qui se trouve à l'adresse que stocke pt. (On connait le nombre d'octets qu'il faut regarder, puisque nous avons dit "int* pt" plus haut)
 - &pt correspond à l'adresse mémoire où est stocké la valeur de pt.
 
+Notons que les adresses imprimées dans la console sont logiques. Par Exemple:
+
+pt vaut  : 0x7ff7ba40e70c
+&pt vaut : 0x7ff7ba40e714
+
+Ces adresses sont très proches. Pour être plus précis, elles sont espacées de 8 octets, les suivants:
+
+0x7ff7ba40e70c
+0x7ff7ba40e70d
+0x7ff7ba40e70e
+0x7ff7ba40e70f
+0x7ff7ba40e710
+0x7ff7ba40e711
+0x7ff7ba40e712
+0x7ff7ba40e713
+
+En reprenant le code:
+
+pt est de type "int*" il va donc prendre 8 octets de place mémoire sur un processeur 64bits (car une adresse est stockée sur 64 bits ou 8 octets).
+La déclaration qui suit est celle de val1 dont l'adresse est 0x7ff7ba40e714, soit l'adresse qui suit la dernière occuppée par pt. C'est intéressant
+de comprendre ça car pouvoir visualiser la mémoire d'un ordinateur permet de mieux comprendre son fonctionnement.
+
 - Pour une raison qui m'est inconnue, les solutions des questions suivantes sont inclues dans l'énoncé. Elles ne seront pas traitées içi.
