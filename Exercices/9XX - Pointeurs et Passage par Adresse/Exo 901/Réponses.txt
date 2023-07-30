@@ -1,0 +1,5 @@
+- pt correspond à ce qu'on lui a assigné. En l'occurrence: &val1. Ainsi, pt vaut l'adresse où se trouve val1.
+- *pt correspond à la valeur qui se trouve à l'adresse que stocke pt. (On connait le nombre d'octets qu'il faut regarder, puisque nous avons dit "int* pt" plus haut)
+- &pt correspond à l'adresse mémoire où est stocké la valeur de pt.
+
+- Pour une raison qui m'est inconnue, les solutions des questions suivantes sont inclues dans l'énoncé. Elles ne seront pas traitées içi.
