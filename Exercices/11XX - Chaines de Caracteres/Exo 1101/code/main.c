@@ -24,9 +24,9 @@ int main() {
 
     int nb;
     nb = compte(chaine1);
-    printf("La chaine1 comporte %d caracteres\n", nb);
+    printf("La chaine %s comporte %d caracteres\n", chaine1, nb);
     nb = compte(chaine2);
-    printf("La chaine2 comporte %d caracteres\n", nb);
+    printf("La chaine %s comporte %d caracteres\n", chaine2, nb);
 
     return 0;
 }
