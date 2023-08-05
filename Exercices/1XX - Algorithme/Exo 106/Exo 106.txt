@@ -1,9 +1,0 @@
-Enoncé
-
-Ecrire un DTI et une ACD qui saisit un entier et affiche à l’écran la factorielle de cet entier.
-
---------------------------------------------------------------------
-
-Corrigé
-
-Pas de corrigé pour l'instant (cf. https://github.com/EnjoyBacon7/Algorithmique/wiki)

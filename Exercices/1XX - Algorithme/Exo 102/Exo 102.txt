@@ -1,9 +1,0 @@
-Enoncé
-
-Ecrire le DTI et une ACD qui saisit 5 réels et les affiche à l’écran. Cet exercice se fait sans boucle.
-
-------------------------------------------------------------------------
-
-Corrigé
-
-Pas de corrigé pour l'instant (cf. https://github.com/EnjoyBacon7/Algorithmique/wiki)
