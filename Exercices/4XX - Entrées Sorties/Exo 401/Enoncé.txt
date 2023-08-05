@@ -1,0 +1,7 @@
+Enoncé
+
+- Dans un programme, afficher à l'écran "Bonjour" sans passer par une variable.
+- Compléter votre programme en saisissant au clavier l'année en cours. Cette valeur est à stocker dans une variable déclarée. Enfin afficher cette valeur à l'écran.
+- Si la valeur 2021 est saisie, afficher à l'écran "L'année en cours est 2021". C'est-à-dire afficher un texte avec la valeur entière saisie. Mettre un passage à la ligne.
+- Afficher l'opposé de l'entier saisi précédemment avec un passage à la ligne.
+- Compléter votre programme, en déclarant 3 entiers (nommés note1, note2 et note3) et et un réel (nommé moyenne). Saisir les 3 entiers au clavier. Calculer la moyenne correspondante et affectant le résultat dans la variable moyenne. Afficher toutes les données en jeu (dont celles saisies).
