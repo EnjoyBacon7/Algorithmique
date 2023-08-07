@@ -1,7 +1,0 @@
-- On constate, au sujet de val1 et val2, qu'un passage par valeur dans un sous-programme ne partage QUE la valeur de la variable en paramètre, pas son adresse.
-Cela veut dire qu'une valeur passée par valeur peut être modifiée dans un sous-prgramme sans répercussions dans le sous-programme ou programme principal appelant.
-
-Pour faire bref, modifier val1 et val2 dans le sous-programme ne les modifie pas dans le programme principal.
-
-- Pour que les modifications dans le sous-programme se répercutent dans le programme principal, il aurait fallu procéder par un passsage par adresse.
-Ce procédé ne sera pas expliqué ici car il est l'objet du prochain chapitre (le 9): "POINTEURS ET PASSAGE DES PARAMÈTRES PAR ADRESSE".
