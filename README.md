@@ -21,6 +21,8 @@ Je suis ouvert aux questions pour mettre à jour les corrigés. Si un lien est m
 <!-- 31/234 -->
 <!-- 0/234 -->
 
+**L'ABSENCE DE CORRIGÉ NE VEUT PAS DIRE QUE L'EXERCICE N'EST PAS FAIT. IL PEUT SIMPLEMENT MANQUER D'UNE PARTIE DES EXIGENCES (ACD, DTI, GRAPHE D'APPEL...).**
+
 <center>
 
 | Chapitre | Corrigés | Enoncé | Commentaires| Wiki |
