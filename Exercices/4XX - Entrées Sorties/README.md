@@ -1,1 +1,0 @@
-Les exercices 400 sont les premiers à vraiment entrer dans le code. Toute astuce est commentée en détail. Ceci ne sera pas le cas dans les exercices plus avancés.
