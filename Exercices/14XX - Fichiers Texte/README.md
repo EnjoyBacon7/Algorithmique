@@ -1,1 +1,0 @@
-Les corrigés de ce dossier sont les exos de 1401 à 1406. Ici nous voyons le traitement de texte avec des fichiers.
