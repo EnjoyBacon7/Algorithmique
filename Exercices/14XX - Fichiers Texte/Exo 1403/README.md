@@ -1,1 +1,0 @@
-Algorithme non écrit.
