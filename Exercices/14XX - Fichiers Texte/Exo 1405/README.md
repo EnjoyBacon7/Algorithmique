@@ -1,1 +1,0 @@
-Petite déviation de l'énoncé. Le programme supporte autant de films qu'il y a dans le fichier, et ne se limite pas à 10 dan l'initialisation du tableau.
