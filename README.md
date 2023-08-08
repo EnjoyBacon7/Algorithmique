@@ -16,9 +16,9 @@ Je suis ouvert aux questions pour mettre à jour les corrigés. Si un lien est m
 
 ### Avancement
 
-- Avancement Réponses : &nbsp;&nbsp; ![16%](https://progress-bar.dev/16)
+- Avancement Réponses : &nbsp;&nbsp; ![21%](https://progress-bar.dev/21)
 - Avancement wiki : &nbsp;&nbsp;&nbsp; ![0%](https://progress-bar.dev/0)
-<!-- 38/234 -->
+<!-- 51/234 -->
 <!-- 0/234 -->
 
 **L'ABSENCE DE CORRIGÉ NE VEUT PAS DIRE QUE L'EXERCICE N'EST PAS FAIT. IL PEUT SIMPLEMENT MANQUER D'UNE PARTIE DES EXIGENCES (ACD, DTI, GRAPHE D'APPEL...).**
