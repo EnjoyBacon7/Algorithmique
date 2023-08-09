@@ -10,7 +10,7 @@ Les ACD et DTIs demandés ne sont pas faits (par manque de temps).
 
 ### Explications et Approfondissements
 
-Les Enoncés et corrigés peuvent être téléchargés ici. Pour les détails, les explications, etc sur les exercices, voir le [wiki](https://github.com/EnjoyBacon7/Algorithmique/wiki/Algorithmique).
+Les Enoncés et corrigés peuvent être téléchargés ici. Pour les détails, les explications, etc sur les exercices, voir le [wiki](https://github.com/EnjoyBacon7/Algorithmique/wiki/Algorithmique). (Celui-ci n'est pas utilisable pour l'instant)
 
 Je suis ouvert aux questions pour mettre à jour les corrigés. Si un lien est mort, un typo est trouvé, ou une erreur dans les exercices ressort, merci de me le signaler sur discord ou en ouvrant une issue.
 
