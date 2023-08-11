@@ -16,14 +16,14 @@ Je suis ouvert aux questions pour mettre à jour les corrigés. Si un lien est m
 
 ### Avancement
 
-- Avancement Réponses : &nbsp;&nbsp; ![53%](https://progress-bar.dev/53)
+- Avancement Réponses : &nbsp;&nbsp; ![54%](https://progress-bar.dev/54)
 - Avancement wiki : &nbsp;&nbsp;&nbsp; ![0%](https://progress-bar.dev/0)
-<!-- 125/234 -->
+<!-- 128/234 -->
 <!-- 1/234 -->
 
 Pour ceux qui ne veulent que le code:
-- Avancement code pur : &nbsp;&nbsp;&nbsp; ![66%](https://progress-bar.dev/66)
-<!-- 78/117 -->
+- Avancement code pur : &nbsp;&nbsp;&nbsp; ![68%](https://progress-bar.dev/68)
+<!-- 80/117 -->
 
 **L'ABSENCE DE CORRIGÉ NE VEUT PAS DIRE QUE L'EXERCICE N'EST PAS FAIT. IL PEUT SIMPLEMENT MANQUER D'UNE PARTIE DES EXIGENCES (ACD, DTI, GRAPHE D'APPEL...).**
 
@@ -32,7 +32,7 @@ Pour ceux qui ne veulent que le code:
 | Chapitre | Corrigés <br/> Enoncés <br/> Commentaires <br/> Wiki |
 | -------- | ----------------------------------------------------- |
 | 1        | ✅🔲🔲✅🔲🔲🔲✅🔲🔲🔲🔲🔲🔲🔲🔲🔲 <br/> ✅✅✅✅✅✅✅✅✅🔲🔲🔲🔲🔲🔲🔲🔲 <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲 <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲 |
-| 2        | ✅🔲🔲                                    <br/> ✅🔲🔲                                    <br/> 🔲🔲🔲                                    <br/> 🔲🔲🔲                                    |
+| 2        | ✅🔲✅                                    <br/> ✅✅✅                                    <br/> 🔲🔲🔲                                    <br/> 🔲🔲🔲                                    |
 | 3        | 🔲🔲🔲🔲🔲🔲🔲🔲🔲                     <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲                     <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲                     <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲                     |
 | 4        | ✅✅✅✅✅                               <br/> ✅✅✅✅✅                               <br/> 🔲🔲🔲🔲🔲                               <br/> 🔲🔲🔲🔲🔲                               |
 | 5        | ✅✅✅✅✅                               <br/> ✅✅✅✅✅                               <br/> 🔲🔲🔲🔲🔲                               <br/> 🔲🔲🔲🔲🔲                               |
