@@ -16,14 +16,14 @@ Je suis ouvert aux questions pour mettre à jour les corrigés. Si un lien est m
 
 ### Avancement
 
-- Avancement Réponses : &nbsp;&nbsp; ![57%](https://progress-bar.dev/57)
+- Avancement Réponses : &nbsp;&nbsp; ![60%](https://progress-bar.dev/60)
 - Avancement wiki : &nbsp;&nbsp;&nbsp; ![0%](https://progress-bar.dev/0)
-<!-- 135/234 -->
+<!-- 141/234 -->
 <!-- 1/234 -->
 
 Pour ceux qui ne veulent que le code:
-- Avancement code pur : &nbsp;&nbsp;&nbsp; ![73%](https://progress-bar.dev/73)
-<!-- 86/117 -->
+- Avancement code pur : &nbsp;&nbsp;&nbsp; ![76%](https://progress-bar.dev/76)
+<!-- 89/117 -->
 
 **L'ABSENCE DE CORRIGÉ NE VEUT PAS DIRE QUE L'EXERCICE N'EST PAS FAIT. IL PEUT SIMPLEMENT MANQUER D'UNE PARTIE DES EXIGENCES (ACD, DTI, GRAPHE D'APPEL...).**
 
@@ -33,7 +33,7 @@ Pour ceux qui ne veulent que le code:
 | -------- | ----------------------------------------------------- |
 | 1        | ✅🔲🔲✅🔲🔲🔲✅🔲🔲🔲🔲🔲🔲🔲🔲🔲 <br/> ✅✅✅✅✅✅✅✅✅🔲🔲🔲🔲🔲🔲🔲🔲 <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲 <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲 |
 | 2        | ✅🔲✅                                    <br/> ✅✅✅                                    <br/> 🔲🔲🔲                                    <br/> 🔲🔲🔲                                    |
-| 3        | ✅✅🔲🔲🔲🔲🔲🔲🔲                     <br/> 🔲🔲🔲🔲🔲🔲🔲🔲                     <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲                     <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲                     |
+| 3        | ✅✅🔲🔲🔲🔲🔲🔲🔲                     <br/> ✅✅✅✅🔲🔲🔲🔲                     <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲                     <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲                     |
 | 4        | ✅✅✅✅✅                               <br/> ✅✅✅✅✅                               <br/> 🔲🔲🔲🔲🔲                               <br/> 🔲🔲🔲🔲🔲                               |
 | 5        | ✅✅✅✅✅                               <br/> ✅✅✅✅✅                               <br/> 🔲🔲🔲🔲🔲                               <br/> 🔲🔲🔲🔲🔲                               |
 | 6        | 🔲🔲✅🔲✅                               <br/> ✅✅✅✅✅                               <br/> 🔲🔲🔲🔲🔲                               <br/> 🔲🔲🔲🔲🔲                               |
