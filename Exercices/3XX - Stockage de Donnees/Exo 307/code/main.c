@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int main() {
 
     // 0. Déclaration des variables
