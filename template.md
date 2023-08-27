@@ -1,7 +1,9 @@
-## Exercice XXXX
+# Exercice XXXX
 
-### Nouveautés
+## Enoncé
 
-### Corrigé
+## Corrigé
 
-### Critiques
+Le code se trouve dans [`main.c`](../../code/main.c).
+
+## Commentaires d'Exercice
