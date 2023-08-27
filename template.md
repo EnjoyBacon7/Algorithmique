@@ -4,6 +4,6 @@
 
 ## Corrigé
 
-Le code se trouve dans [`main.c`](../../code/main.c).
+Le code se trouve dans [`main.c`](../code/main.c).
 
 ## Commentaires d'Exercice
