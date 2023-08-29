@@ -16,23 +16,23 @@ Je suis ouvert aux questions pour mettre à jour les corrigés. Si un lien est m
 
 ### Avancement
 
-- Avancement Réponses : &nbsp;&nbsp; ![66%](https://progress-bar.dev/66)
+- Avancement Réponses : &nbsp;&nbsp; ![69%](https://progress-bar.dev/69)
 - Avancement wiki : &nbsp;&nbsp;&nbsp; ![0%](https://progress-bar.dev/0)
-<!-- 155/234 -->
+<!-- 163/234 -->
 <!-- 1/234 -->
 
 Pour ceux qui ne veulent que le code:
-- Avancement code pur : &nbsp;&nbsp;&nbsp; ![86%](https://progress-bar.dev/86)
+- Avancement code pur : &nbsp;&nbsp;&nbsp; ![87%](https://progress-bar.dev/87)
 <!-- 102/117 -->
 
-**L'ABSENCE DE CORRIGÉ NE VEUT PAS DIRE QUE L'EXERCICE N'EST PAS FAIT. IL PEUT SIMPLEMENT MANQUER D'UNE PARTIE DES EXIGENCES (ACD, DTI, GRAPHE D'APPEL...).**
+**L'ABSENCE DE CORRIGÉ NE VEUT PAS DIRE QUE L'EXERCICE N'EST PAS FAIT. IL PEUT SIMPLEMENT MANQUER D'UNE PARTIE DES EXIGENCES (GRAPHE D'APPEL, SCHÉMA MEMOIRE, ALGORITHME...).**
 
 <center>
 
 | Chapitre | Corrigés <br/> Enoncés <br/> Commentaires <br/> Wiki |
 | -------- | ----------------------------------------------------- |
-| 1        | ✅🔲🔲✅🔲🔲🔲✅🔲🔲🔲🔲🔲🔲🔲🔲🔲 <br/> ✅✅✅✅✅✅✅✅✅🔲🔲🔲🔲🔲🔲🔲🔲 <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲 <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲 |
-| 2        | ✅🔲✅                                    <br/> ✅✅✅                                    <br/> 🔲🔲🔲                                    <br/> 🔲🔲🔲                                    |
+| 1        | ✅✅✅✅✅✅✅✅✅🔲🔲🔲🔲🔲🔲🔲🔲 <br/> ✅✅✅✅✅✅✅✅✅🔲🔲🔲🔲🔲🔲🔲🔲 <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲 <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲 |
+| 2        | ✅✅✅                                    <br/> ✅✅✅                                    <br/> 🔲🔲🔲                                    <br/> 🔲🔲🔲                                    |
 | 3        | ✅✅🔲🔲✅🔲🔲✅✅                     <br/> ✅✅✅✅✅✅✅✅✅                     <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲                     <br/> 🔲🔲🔲🔲🔲🔲🔲🔲🔲                     |
 | 4        | ✅✅✅✅✅                               <br/> ✅✅✅✅✅                               <br/> 🔲🔲🔲🔲🔲                               <br/> 🔲🔲🔲🔲🔲                               |
 | 5        | ✅✅✅✅✅                               <br/> ✅✅✅✅✅                               <br/> 🔲🔲🔲🔲🔲                               <br/> 🔲🔲🔲🔲🔲                               |
