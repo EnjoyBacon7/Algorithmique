@@ -17,7 +17,6 @@ Je suis ouvert aux questions pour mettre à jour les corrigés. Si un lien est m
 ### Avancement
 
 - Avancement Réponses : &nbsp;&nbsp; ![69%](https://progress-bar.dev/69)
-- Avancement wiki : &nbsp;&nbsp;&nbsp; ![0%](https://progress-bar.dev/0)
 <!-- 163/234 -->
 <!-- 1/234 -->
 
